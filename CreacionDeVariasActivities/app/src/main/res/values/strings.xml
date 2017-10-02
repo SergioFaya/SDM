@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CreacionDeVariasActivities</string>
+    <string name="first">Soy la primer activity</string>
+    <string name="second">Soy la segunda activity</string>
+</resources>
