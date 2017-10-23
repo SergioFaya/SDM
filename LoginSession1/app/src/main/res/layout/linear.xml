@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.sergio.loginsession1.MainActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.00"
+        android:text="@string/username" />
+
+    <EditText
+        android:id="@+id/editTextUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/textViewPassw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/password" />
+
+    <EditText
+        android:id="@+id/passwdText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/textViewRepasword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="@string/repassword" />
+
+    <EditText
+        android:id="@+id/RePasswText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.00"
+        android:ems="10"
+        android:inputType="textPassword"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/buttonAceptar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.00"
+        android:onClick="checkPassword"
+        android:text="@string/agree" />
+
+</LinearLayout>

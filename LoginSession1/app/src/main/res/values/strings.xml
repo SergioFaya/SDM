@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Login Session 1</string>
+    <string name="username">Nombre Usuario:</string>
+    <string name="password">Contraseña:</string>
+    <string name="repassword">Repetir Contraseña:</string>
+    <string name="agree">Aceptar</string>
+    <string name="right">Contraseña correcta</string>
+    <string name="wrong">Contraseña incorrecta</string>
+</resources>
